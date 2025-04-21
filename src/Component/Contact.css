@@ -1,0 +1,149 @@
+/* General styles for the footer */
+.footer {
+    position: relative;
+    bottom:18rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Form container */
+.contact {
+  position: relative;
+  left: 55rem;
+}
+
+.contact form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Table styles */
+form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+form table td {
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+form table label {
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+form table input,
+form table textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+form table input:focus,
+form table textarea:focus {
+  border-color: #007bff;
+}
+
+/* Button styles */
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Notification styles */
+.center {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.center .check {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.details{
+    position: relative;
+    right:35rem;
+    top: 25rem;
+}
+.details h1{
+    font-size: 2.5rem;
+    color: #4bedff;
+    margin-bottom: 1rem;
+}
+.details h3{
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    margin-left: 35rem;
+    width: 40%;
+}
+.details div a{
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+.details div {
+    margin-left: 25rem;
+    width: 40%;
+}
+.icon-info{
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    position: relative;
+    left: 10rem;
+}
+.icon-info div{
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.icon-info div a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #007bff;
+}

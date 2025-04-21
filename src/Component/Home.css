@@ -1,0 +1,64 @@
+.home-icon{
+    display: flex;
+    position: relative;
+    bottom:45rem;
+    left:30rem;
+}
+#home-svg{
+    position: relative;
+    width:30%;
+    left: 62rem;
+    bottom:30rem;
+}
+.info-icon{
+    font-size:.5rem;
+    color: #fff;
+    margin: 1rem;
+}
+.info-icon a{
+    color:black;
+    text-decoration: none;
+    position: relative;
+    right: 3rem;
+    top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.a{
+    font-size: 1.5rem;
+    margin: 3rem;
+    font-weight: 500;
+    position: relative;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgb(133, 2, 255);
+}
+.about h1{
+    position:relative;
+    left: 10rem;
+    top:-38rem;
+  }
+.about-header h2{
+    position:relative;
+    left: 10rem;
+    top:-36rem;
+    font-size: 2rem;
+}
+.about-header{
+    width: 30%;
+}
+.about-me{
+    position: relative;
+    left: 10rem;
+    bottom: 33rem;
+    font-size: 1.2rem;
+}
+.about-me p{
+    font-size: 1.4rem;
+    font-weight: 500; 
+}
+.about-me img{
+    position: relative;
+    left: 26rem;
+    bottom: 25rem;
+}
