@@ -60,7 +60,7 @@ export default function Contact() {
             <a href='https://github.com/kavisudar' target='_blank' rel="noreferrer">Github</a>
         </div>
         <div>
-            <FaEnvelope style={{fontSize:"3rem",color:"#000"}}/>
+            <FaEnvelope style={{fontSize:"3rem",color:"#000",marginTop:"10px"}}/>
             <a href='mailto:kavisudar.be14@gmail.com'>Mail</a>
         </div>
           </div>
@@ -100,6 +100,7 @@ export default function Contact() {
           </div>
         </div>
       )}
+      
     </>
   );
 }

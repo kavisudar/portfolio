@@ -9,9 +9,9 @@ function Home() {
     })
   return (
     <>
-    <div style={{color:"grey",margin:"5rem",display:"flex",justifyContent:"space-between",flexDirection:"column",zIndex:"5"}}>
+    <div style={{margin:"5rem",display:"flex",justifyContent:"space-between",flexDirection:"column",zIndex:"5"}}>
         <center>
-        <h1>HEY !</h1>
+        <h1 id='intro'>HEY !</h1>
         <h2>I'm 
             <span> Kavisudar, </span> 
             <span style={{color:"#FACC15"}}>{text}</span>

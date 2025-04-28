@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,69 +8,81 @@ body, html {
   padding: 0;
   width: 100%;
   height: 100%;
-  /* overflow-y: hidden; Prevent horizontal scrolling */
   overflow-x: hidden;
 }
-body{
+
+body {
   min-height: 200vh;
   background-color: #f2f4fc;
 }
+
 #root {
   width: 100%;
 }
+
 .App {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Optional: Center content horizontally */
+  align-items: center;
 }
-.Nav, .Home, .Cursor, .Skill {
-  width: 100%; /* Ensure all sections span the full width */
+
+/* Add Akira font */
+@font-face {
+  font-family: 'Aesthetic';
+  src: url('./Assert/Font/Aesthetic.ttf') format('opentype');
 }
-nav h1{
-  font-family: "Boldonse", system-ui;
-  font-weight: 400;
+
+/* Apply Akira font to nav h1 */
+nav h1 {
+  font-family: 'Aesthetic', system-ui, sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 40px;
   text-transform: uppercase;
   text-align: left;
-  background: linear-gradient(to left,rgb(0, 255, 255),rgb(246, 255, 0));
+  background: linear-gradient(to left, #e1ff00, #84dd18);
   background-clip: text;
   background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textdesign 3s linear infinite;
+  letter-spacing: 3px;
 }
-@keyframes textdesign{
-  /* nav text */
-  to{
+
+@keyframes textdesign {
+  to {
     background-position: 100%;
   }
 }
-nav{
+
+nav {
   position: sticky;
-  top:10px;
+  top: 10px;
   z-index: 1;
-  background-color:#4C1D95;
+  background-color:#9FA8DA;
   color: white;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding: 15px 0;
 }
-ul{
+
+ul {
   display: flex;
   list-style: none;
   margin-left: 36rem;
 }
-ul li{
+
+ul li {
   text-transform: uppercase;
-  padding:13px 20px 0;
-  font-family:monospace;
-  color:white;
-  font-size:x-large;
-  font-weight:300;
+  padding: 13px 20px 0;
+  font-family: monospace;
+  color: white;
+  font-size: x-large;
+  font-weight: 300;
 }
-ul li:hover{
+
+ul li:hover {
   color: #FBBF24;
   font-weight: 500;
 }

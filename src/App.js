@@ -6,7 +6,6 @@ import Skill from './Component/Skill';
 import Home from './Component/Home';
 import Project from './Component/Project';
 import Contact from './Component/Contact';
-// import Robo from './Robo';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
     <Skill/>
     <Project/>
     <Contact/>
-    {/* <Robo/> */}
     <Cursor/>
     </>
   );
