@@ -60,10 +60,11 @@ export default function Contact() {
             <a href='https://github.com/kavisudar' target='_blank' rel="noreferrer">Github</a>
         </div>
         <div>
-            <FaEnvelope style={{fontSize:"3rem",color:"#000",marginTop:"10px"}}/>
+            <FaEnvelope style={{fontSize:"3rem",color:"#000",marginTop:"8px"}}/>
             <a href='mailto:kavisudar.be14@gmail.com'>Mail</a>
         </div>
           </div>
+          
         </div>
         <h1>Contact</h1>
         <h3>Have a question, collaboration idea, or just want to connect?</h3>

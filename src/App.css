@@ -41,7 +41,7 @@ nav h1 {
   font-size: 40px;
   text-transform: uppercase;
   text-align: left;
-  background: linear-gradient(to left, #e1ff00, #84dd18);
+  background: linear-gradient(to left,rgb(255, 255, 0), #00ce30);
   background-clip: text;
   background-size: 200%;
   -webkit-background-clip: text;
@@ -60,7 +60,7 @@ nav {
   position: sticky;
   top: 10px;
   z-index: 1;
-  background-color:#9FA8DA;
+  background-color:blueviolet;
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -87,3 +87,4 @@ ul li:hover {
   font-weight: 500;
 }
 
+/* Responsiveness  */

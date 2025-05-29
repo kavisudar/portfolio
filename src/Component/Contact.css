@@ -108,12 +108,13 @@ form button:hover {
 .details{
     position: relative;
     right:35rem;
-    top: 35rem;
+    top: 34rem;
 }
 .details h1{
     font-size: 2.5rem;
     color: #4bedff;
     margin-bottom: 1rem;
+    margin-left: 16rem;
 }
 .details h3{
     font-size: 1.2rem;
