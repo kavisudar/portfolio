@@ -44,7 +44,6 @@
     border: 2px solid black;
 }
 .project a:hover{
-    background-color: rgb(24, 62, 131);
-    color: white;
-    transition: 0.7s;
+    background-color: slateblue;
+    color: thistle;
 }

@@ -43,7 +43,7 @@ export default function Contact() {
         });
     }
   };
-
+let year=new Date().getFullYear();
   return (
     <>
       <div className='footer'>
@@ -68,6 +68,7 @@ export default function Contact() {
         </div>
         <h1>Contact</h1>
         <h3>Have a question, collaboration idea, or just want to connect?</h3>
+        <img src="Mail.svg" alt="img failed" id='mail'/>
         <div className="contact">
           <form action="https://formspree.io/f/xkgrwjwq" method="POST">
             <table>
@@ -92,7 +93,14 @@ export default function Contact() {
           </form>
         </div>
       </div>
-
+      <footer>
+        <div className="footer-content">
+          <div className="footer-logo">
+          <p>&copy; {year} Kavisudar. All rights reserved.</p>
+          <p>Designed and Developed by Kavisudar❤️</p>
+          </div>
+        </div>
+      </footer>
       {/* Notification */}
       {notificationVisible && (
         <div className="center">

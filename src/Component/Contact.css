@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* General styles for the footer */
 .footer {
   position: relative;
@@ -22,7 +27,7 @@
 .contact {
   position: relative;
   left: 55rem;
-  top: 10rem;
+  /* top: rem; */
 }
 
 .contact form {
@@ -150,4 +155,27 @@ form button:hover {
     text-decoration: none;
     margin-right: 1rem;
     color: #007bff;
+}
+tbody tr button{
+  margin-left: 10px;
+}
+/* mail image */
+#mail{
+    position: relative;
+    right: 22rem;
+    top: 35rem;
+    width: 40rem;
+}
+.footer-content{
+  position: relative;
+  background-color: blueviolet;
+  color: white;
+  height: 10rem;
+  width: 100%;
+}
+.footer-logo{
+  position: relative;
+  left: 40%;
+  top: 4rem;
+  width: 40%;
 }
